@@ -31,10 +31,10 @@ const projectItems = [
   },
 ];
 
-export default function Project() {
+export default function Projects() {
   return (
     <PageLayout>
-      <h1 className="text-7xl font-normal mb-8">Project</h1>
+      <h1 className="text-7xl font-normal mb-8">Projects</h1>
       <div
         className="flex gap-8 overflow-x-auto pb-8 snap-x snap-mandatory custom-scrollbar"
         style={{ fontFamily: "var(--font-inclusive-sans)" }}
