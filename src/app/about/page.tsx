@@ -30,14 +30,14 @@ export default function About() {
           I currently lead the 501(c)(3) non-profit Hack for Impact. We build
           full-stack web applications for other non-profits, run educational
           programs, and work on inter-discplinary service-learning projects
-          through our 13 chapters across North America. The aim is to cultivate
-          a community of like-minded do-gooders in technology.
+          through our 13 chapters across North America. We aim to cultivate a
+          community of like-minded do-gooders in technology.
         </p>
         <p>
           On a personal note, I am a lover of stories! I love narratives by
           humans for humans across mediums of art, theatre, musicals, animation,
-          books, movies, music, design, games, and more. Tell me your favorite
-          stories.
+          books, movies, music, food, design, games, and more. Tell me your
+          favorite stories.
         </p>
       </div>
     </PageLayout>
