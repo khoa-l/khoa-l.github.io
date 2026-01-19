@@ -24,20 +24,18 @@ jobs:
           cache: 'pnpm'
           
       - name: Install dependencies
-        working-directory: ./www
         run: pnpm install
 
       - name: Build
-        working-directory: ./www
         run: pnpm build
 
       - name: Touch .nojekyll
-        run: touch www/out/.nojekyll
+        run: touch out/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./www/out
+          publish_dir: ./out
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
