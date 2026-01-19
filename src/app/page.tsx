@@ -17,6 +17,7 @@ export default function Home() {
         fill
         className="object-cover mix-blend-screen opacity-50 pointer-events-none"
       />
+
       <div className="relative z-10 pt-16 px-8 pb-8">
         <h1 className="text-7xl w-fit px-4 pt-1 pb-4 mb-16 leading-none text-[#f0d500]">Khoa Ly</h1>
         <nav className="flex flex-col gap-2 text-3xl text-[#f0d500]" style={{ fontFamily: "var(--font-inclusive-sans)" }}>

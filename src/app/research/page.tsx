@@ -17,10 +17,10 @@ const researchItems = [
     pdf: "/monkey.pdf",
   },
   {
-    title: "Placeholder Research Paper",
+    title: "Custom Feeds for Mitigating Problematic Social Media Usage",
     date: "Ongoing Research",
     description:
-      "An investigation into how placeholder research papers affect the layout of the research page of this personal website. Our findings suggest that the layout works well in context with multiple different research posts.",
+      "An investigation into customized content feeds as a design pattern for mitigating problematic social media usage. Intended to be run as a diary study. ",
     link: "#",
   },
 ];
