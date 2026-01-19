@@ -9,19 +9,19 @@ const researchItems = [
     pdf: "#",
   },
   {
+    title: "Custom Feeds for Mitigating Problematic Social Media Usage",
+    date: "Ongoing Research",
+    description:
+      "An investigation into customized content feeds as a design pattern for mitigating problematic social media usage. Intended to be run as a diary study. ",
+    link: "#",
+  },
+  {
     title:
       "Learned Monkeys: Emergent Properties of Deep Reinforcement Learning Generated Networks",
     date: "Undergraduate Research, 2023",
     description:
       "An analysis of social network structures within primate communities, examining the relationships and hierarchies that form between individuals. This research explores how network graph theory can be applied to understand animal social behavior.",
     pdf: "/monkey.pdf",
-  },
-  {
-    title: "Custom Feeds for Mitigating Problematic Social Media Usage",
-    date: "Ongoing Research",
-    description:
-      "An investigation into customized content feeds as a design pattern for mitigating problematic social media usage. Intended to be run as a diary study. ",
-    link: "#",
   },
 ];
 

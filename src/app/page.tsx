@@ -8,8 +8,14 @@ export default function Home() {
         src="/sky.jpg"
         alt=""
         fill
-        className="object-cover brightness-[0.75]"
+        className="object-cover brightness-[0.75] dark:hidden"
         priority
+      />
+      <Image
+        src="/night.jpg"
+        alt=""
+        fill
+        className="hidden dark:block object-cover brightness-[0.75]"
       />
       <Image
         src="/fold.jpg"
