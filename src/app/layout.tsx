@@ -15,8 +15,8 @@ const inclusiveSans = Inclusive_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio website",
+  title: "Khoa Ly",
+  description: "",
 };
 
 export default function RootLayout({
