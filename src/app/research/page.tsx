@@ -1,6 +1,14 @@
 import PageLayout from "../components/PageLayout";
 
-const researchItems = [
+type ResearchItem = {
+  title: string;
+  subtitle?: string;
+  description: string;
+  pdf?: string;
+  link?: string;
+};
+
+const researchItems: ResearchItem[] = [
   {
     title: "Self-Perception Theory and Algorithmic Preference Formation",
     subtitle: "Graduate Thesis, Ongoing Research",

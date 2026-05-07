@@ -1,6 +1,14 @@
 import PageLayout from "../components/PageLayout";
 
-const projectItems = [
+type ProjectItem = {
+  title: string;
+  date: string;
+  description: string;
+  link?: string;
+  pdf?: string;
+};
+
+const projectItems: ProjectItem[] = [
   // {
   //   title: "Freelance",
   //   date: "Various Projects",
