@@ -88,7 +88,7 @@ export default function Home() {
       />
 
       <div className="relative z-10 pt-16 px-8 pb-8">
-        <h1 className="text-7xl w-fit px-4 pt-1 pb-4 mb-16 leading-none text-[#f0d500]">
+        <h1 className="text-5xl w-fit px-4 pt-1 pb-4 mb-16 leading-none text-[#f0d500]">
           Khoa Ly
         </h1>
         <nav
@@ -122,4 +122,3 @@ export default function Home() {
     </main>
   );
 }
-
