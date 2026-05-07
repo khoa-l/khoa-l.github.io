@@ -1,8 +1,8 @@
 import CircleLink from "./CircleLink";
 
-export default function PageLayout({ children }: { children: React.ReactNode }) {
+export default function PageLayout({ children, noScroll }: { children: React.ReactNode, noScroll?: boolean }) {
   return (
-    <main className="relative min-h-screen flex flex-col">
+    <main className={`relative ${noScroll ? "h-screen overflow-hidden" : "min-h-screen"} flex flex-col`}>
       <div
         className="absolute inset-0 mix-blend-multiply opacity-30 pointer-events-none invert dark:invert-0 dark:mix-blend-screen dark:opacity-20"
         style={{
@@ -11,7 +11,7 @@ export default function PageLayout({ children }: { children: React.ReactNode }) 
           backgroundPosition: "center",
         }}
       />
-      <div className="relative z-10 pt-16 px-8 pb-8 flex-1">
+      <div className={`relative z-10 pt-16 px-8 pb-8 flex-1${noScroll ? " flex flex-col min-h-0 overflow-hidden" : ""}`}>
         {children}
       </div>
       <nav

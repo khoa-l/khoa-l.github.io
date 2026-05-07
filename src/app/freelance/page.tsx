@@ -74,7 +74,7 @@ export default function Freelance() {
                   <a
                     target="_blank"
                     href={item.link}
-                    className="inline-block px-4 py-2 border border-current hover:bg-[var(--foreground)] hover:text-[var(--background)] transition-colors duration-200"
+                    className="inline-block px-4 py-2 border border-current hover:bg(--foreground) hover:text(--background) transition-colors duration-200"
                   >
                     View Project
                   </a>
