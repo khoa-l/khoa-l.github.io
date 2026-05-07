@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 export default function About() {
   return (
     <PageLayout>
-      <h1 className="text-7xl font-normal mb-8">About</h1>
+      <h1 className="text-4xl font-normal mb-8">About</h1>
       <div
         className="max-w-2xl space-y-4"
         style={{ fontFamily: "var(--font-inclusive-sans)" }}
@@ -27,7 +27,7 @@ export default function About() {
           inclusive design.
         </p>
         <p>
-          I currently lead the 501(c)(3) non-profit Hack for Impact. We build
+          I currently lead the 501(c)(3) non-profit Hack4Impact. We build
           full-stack web applications for other non-profits, run educational
           programs, and work on inter-discplinary service-learning projects
           through our 13 chapters across North America. We aim to cultivate a

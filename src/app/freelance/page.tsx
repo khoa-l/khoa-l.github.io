@@ -27,7 +27,7 @@ const projectItems = [
 export default function Freelance() {
   return (
     <PageLayout>
-      <h1 className="text-7xl font-normal mb-8">Freelance</h1>
+      <h1 className="text-4xl font-normal mb-8">Freelance</h1>
       <div
         className="flex flex-col md:flex-row gap-16 mb-16"
         style={{ fontFamily: "var(--font-inclusive-sans)" }}
