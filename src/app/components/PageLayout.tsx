@@ -1,8 +1,16 @@
 import CircleLink from "./CircleLink";
 
-export default function PageLayout({ children, noScroll }: { children: React.ReactNode, noScroll?: boolean }) {
+export default function PageLayout({
+  children,
+  noScroll,
+}: {
+  children: React.ReactNode;
+  noScroll?: boolean;
+}) {
   return (
-    <main className={`relative ${noScroll ? "h-screen overflow-hidden" : "min-h-screen"} flex flex-col`}>
+    <main
+      className={`relative ${noScroll ? "h-screen overflow-hidden" : "min-h-screen"} flex flex-col`}
+    >
       <div
         className="absolute inset-0 mix-blend-multiply opacity-30 pointer-events-none invert dark:invert-0 dark:mix-blend-screen dark:opacity-20"
         style={{
@@ -11,17 +19,27 @@ export default function PageLayout({ children, noScroll }: { children: React.Rea
           backgroundPosition: "center",
         }}
       />
-      <div className={`relative z-10 pt-16 px-8 pb-8 flex-1${noScroll ? " flex flex-col min-h-0 overflow-hidden" : ""}`}>
+      <div
+        className={`relative z-10 pt-16 px-8 pb-8 flex-1${noScroll ? " flex flex-col min-h-0 overflow-hidden" : ""}`}
+      >
         {children}
       </div>
       <nav
         className="relative z-10 p-8 pt-0 flex flex-wrap justify-center gap-8 text-lg"
         style={{ fontFamily: "var(--font-inclusive-sans)" }}
       >
-        <CircleLink href="/" rotation={-2} pathIndex={4}>Home</CircleLink>
-        <CircleLink href="/about" rotation={3} pathIndex={1}>About</CircleLink>
-        <CircleLink href="/projects" rotation={-1} pathIndex={2}>Projects</CircleLink>
-        <CircleLink href="/research" rotation={2} pathIndex={3}>Research</CircleLink>
+        <CircleLink href="/" rotation={-2} pathIndex={4}>
+          Home
+        </CircleLink>
+        <CircleLink href="/about" rotation={3} pathIndex={1}>
+          About
+        </CircleLink>
+        <CircleLink href="/projects" rotation={-1} pathIndex={2}>
+          Projects
+        </CircleLink>
+        <CircleLink href="/research" rotation={2} pathIndex={3}>
+          Research
+        </CircleLink>
       </nav>
     </main>
   );

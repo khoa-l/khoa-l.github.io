@@ -4,10 +4,7 @@ export default function About() {
   return (
     <PageLayout>
       <h1 className="text-4xl font-normal mb-8">About</h1>
-      <div
-        className="max-w-2xl space-y-4"
-        style={{ fontFamily: "var(--font-inclusive-sans)" }}
-      >
+      <div className="max-w-2xl space-y-4">
         <p>
           I am a Computer Science Master's student at California Polytechnic
           State University, San Luis Obispo currently studying how recommender
