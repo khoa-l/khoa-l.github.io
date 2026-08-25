@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { PreviewCard } from "@/components/preview-card";
+
 export default function Home() {
   return (
     <div className="xs:bg-red-50 flex flex-1 flex-col items-center justify-center bg-white font-sans sm:bg-purple-50 md:bg-blue-50 lg:bg-green-50 dark:bg-black">
@@ -13,14 +15,44 @@ export default function Home() {
               alt="Asian man with glasses and a white shirt smiling in front of a blurred background of green trees"
             ></Image>
           </div>
-          <p className="flex flex-1 flex-col gap-3 border sm:gap-5">
-            <span className="text-xl">Hi, I&apos;m Khoa Ly.</span>
+          <div className="flex flex-1 flex-col gap-3 border sm:gap-5">
+            <h1 className="text-xl">Hi, I&apos;m Khoa Ly.</h1>
             <span className="xs:flex hidden">
-              I&apos;m a graduate researcher working at the intersections of human-computer
-              interaction, explainable AI &amp; interpretable ML, and scientific computing &amp;
-              visualizations.
+              <p>
+                I&apos;m a graduate researcher working at the intersections of{" "}
+                <PreviewCard
+                  href="https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction"
+                  imageSrc="https://images.unsplash.com/photo-1619615391095-dfa29e1672ef?q=80&w=448&h=300"
+                  imageAlt="Station Hofplein signage in Rotterdam, Netherlands"
+                  title="Human-computer interaction"
+                  description="is the study of how people interact with computers and how to design technology that is usable and useful."
+                >
+                  human-computer interaction
+                </PreviewCard>
+                ,{" "}
+                <PreviewCard
+                  href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+                  imageSrc="https://images.unsplash.com/photo-1619615391095-dfa29e1672ef?q=80&w=448&h=300"
+                  imageAlt="Station Hofplein signage in Rotterdam, Netherlands"
+                  title="Human-computer interaction"
+                  description="is the study of how people interact with computers and how to design technology that is usable and useful."
+                >
+                  explainable AI &amp; interpretable ML
+                </PreviewCard>
+                , and{" "}
+                <PreviewCard
+                  href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+                  imageSrc="https://images.unsplash.com/photo-1619615391095-dfa29e1672ef?q=80&w=448&h=300"
+                  imageAlt="Station Hofplein signage in Rotterdam, Netherlands"
+                  title="Human-computer interaction"
+                  description="is the study of how people interact with computers and how to design technology that is usable and useful."
+                >
+                  scientific computing &amp; visualizations
+                </PreviewCard>{" "}
+                .
+              </p>
             </span>
-          </p>
+          </div>
         </div>
         <p className="xs:hidden flex flex-1 border">
           I&apos;m a graduate researcher working at the intersections of human-computer interaction,
