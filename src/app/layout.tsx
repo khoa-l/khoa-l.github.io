@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inclusive_Sans } from "next/font/google";
 import localFont from "next/font/local";
+
 import "./globals.css";
 
 const inclusiveSans = Inclusive_Sans({
@@ -9,7 +10,7 @@ const inclusiveSans = Inclusive_Sans({
 });
 
 const paperMono = localFont({
-  src: "../public/fonts/PaperMono[wght].ttf",
+  src: "../../public/fonts/PaperMono[wght].ttf",
   variable: "--font-paper-mono",
   weight: "100 800",
 });
@@ -25,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${inclusiveSans.variable} ${paperMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex min-h-full flex-col">
         <div className="root">{children}</div>
       </body>
     </html>

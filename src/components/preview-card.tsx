@@ -2,13 +2,16 @@ import { PreviewCard as BasePreviewCard } from "@base-ui/react";
 import Image from "next/image";
 import type { ReactNode } from "react";
 
-type PreviewCardProps = {
+export type PreviewCardContent = {
   href: string;
-  children: ReactNode;
   imageSrc: string;
   imageAlt: string;
   title: string;
   description: ReactNode;
+};
+
+type PreviewCardProps = PreviewCardContent & {
+  children: ReactNode;
 };
 
 export function PreviewCard({
