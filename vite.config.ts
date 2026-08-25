@@ -4,7 +4,10 @@ export default defineConfig({
   staged: {
     "*": "vp check --fix",
   },
-  fmt: {},
+  fmt: {
+    sortImports: true,
+    sortTailwindcss: true,
+  },
   lint: {
     plugins: ["oxc", "typescript", "unicorn", "react", "nextjs"],
     categories: {

@@ -2,28 +2,40 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        Hi, I'm Khoa Ly. I am a Computer Science Master's student at California
-        Polytechnic State University, San Luis Obispo currently studying how
-        recommender systems infringe on individual human autonomy and
-        self-perception theory as it pertains to preference formation. My
-        interests are at the intersection of human computer interaction (HCI);
-        explainable artificial intelligence (XAI); and fairness, accountability,
-        transparency, and ethics (FATE) research. I am also doing work in
-        scientific visualization and how software can better support scientific
-        workflows. I am passionate about reducing algorithmic bias and improving
-        the decisions that systematically disadvantage groups and individuals. I
-        endeavor to build more interpretable, trustworthy, and ethical machine
-        learning and software systems. Focusing on human-centered and inclusive
-        design. I currently lead the 501(c)(3) non-profit Hack4Impact. We build
-        full-stack web applications for other non-profits, run educational
-        programs, and work on inter-discplinary service-learning projects
-        through our 13 chapters across North America. The aim is to cultivate a
-        community of like-minded do-gooders in technology. On a personal note, I
-        am a lover of stories! I love narratives by humans for humans across
-        mediums of art, theatre, musicals, animation, books, movies, music,
-        design, games, and more. Tell me your favorite stories.
+    <div className="xs:bg-red-50 flex flex-1 flex-col items-center justify-center bg-white font-sans sm:bg-purple-50 md:bg-blue-50 lg:bg-green-50 dark:bg-black">
+      <main className="flex w-full max-w-3xl flex-1 flex-col items-center justify-between gap-3 border border-blue-500 px-4 py-32 sm:items-start sm:gap-5 sm:px-16 dark:bg-black">
+        <div className="relative flex w-full flex-row items-start gap-3 border border-red-500 sm:gap-5">
+          <div className="relative flex aspect-3/4 min-w-30 md:aspect-square">
+            <Image
+              className="rounded-sm object-cover object-[-72px] md:object-[-36px]"
+              src={"/profile.jpg"}
+              fill={true}
+              alt="Asian man with glasses and a white shirt smiling in front of a blurred background of green trees"
+            ></Image>
+          </div>
+          <p className="flex flex-1 flex-col gap-3 border sm:gap-5">
+            <span className="xs:text-base text-xl">Hi, I&apos;m Khoa Ly.</span>
+            <span className="xs:flex hidden">
+              I&apos;m a graduate researcher working at the intersections of human-computer
+              interaction, explainable AI &amp; interpretable ML, and scientific computing &amp;
+              visualizations.
+            </span>
+          </p>
+        </div>
+        <p className="xs:hidden flex flex-1 border">
+          I&apos;m a graduate researcher working at the intersections of human-computer interaction,
+          explainable AI &amp; interpretable ML, and scientific computing &amp; visualizations.
+        </p>
+        <p className="flex flex-1 border">
+          I currently work with Dr. Silas Hsu to study how recommender systems infringe on user
+          autonomy. I am also part of the Cal Poly Data Design Lab, working with Dr. Austin P.
+          Wright on a tool for studying the use of dimensionality reduction techniques in scientific
+          workflows.
+        </p>
+        <p className="flex flex-1 border">
+          I am also the volunteer executive director of the 501(c)3 non-profit organization
+          Hack4Impact.
+        </p>
       </main>
     </div>
   );
