@@ -28,27 +28,31 @@ export const previewCards = {
       "combines numerical methods, algorithms, and visualization to solve and communicate complex scientific problems.",
   },
   silasHsu: {
-    href: "#",
+    href: "https://smhsu.github.io/",
     ...placeholderImage,
     title: "Dr. Silas Hsu",
-    description: "Placeholder — add a bio for Dr. Silas Hsu.",
+    description:
+      "is an Assistant Professor of CS at Cal Poly SLO. He researches the erosion of user autonomy in AI content curation systems / AI feedback systems in education and its remedies.",
   },
   dataDesignLab: {
-    href: "#",
+    href: "https://calpoly-data-design-lab.github.io/",
     ...placeholderImage,
     title: "Cal Poly Data Design Lab",
-    description: "Placeholder — add a description of the Cal Poly Data Design Lab.",
+    description:
+      "studies how people make sense of data and build tools that help communities, researchers, and practitioners analyze, visualize, and communicate with data.",
   },
   austinWright: {
-    href: "#",
+    href: "https://austinpwright.com/",
     ...placeholderImage,
     title: "Dr. Austin P. Wright",
-    description: "Placeholder — add a bio for Dr. Austin P. Wright.",
+    description:
+      "is an Assistant Professor of CS at Cal Poly SLO. He runs the Cal Poly Data Design Lab and conducts research in Scientific Human-Centered Machine Learning.",
   },
   hack4impact: {
-    href: "#",
+    href: "https://www.hack4impact.org/",
     ...placeholderImage,
     title: "Hack4Impact",
-    description: "Placeholder — add a description of Hack4Impact.",
+    description:
+      "chapters create software for non-profits, educate students in social good technology, and foster communities of humanitarians in tech.",
   },
 } satisfies Record<string, PreviewCardContent>;

@@ -27,6 +27,8 @@ export function PreviewCard({
       <BasePreviewCard.Trigger
         className="text-neutral-950 underline decoration-neutral-950/60 decoration-1 underline-offset-2 outline-0 hover:decoration-neutral-950 focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-neutral-950 data-popup-open:decoration-neutral-950 dark:text-white dark:decoration-white/60 dark:hover:decoration-white dark:focus-visible:outline-white dark:data-popup-open:decoration-white"
         href={href}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {children}
       </BasePreviewCard.Trigger>
@@ -42,7 +44,7 @@ export function PreviewCard({
                 src={imageSrc}
                 alt={imageAlt}
               />
-              <p className="text-sm">
+              <p className="font-sans text-sm">
                 <strong>{title}</strong> {description}
               </p>
             </div>

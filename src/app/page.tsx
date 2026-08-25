@@ -41,15 +41,15 @@ export default function Home() {
           I&apos;m a graduate researcher working at the intersections of human-computer interaction,
           explainable AI &amp; interpretable ML, and scientific computing &amp; visualizations.
         </p>
-        <p className="flex flex-1 border">
+        <p className="flex-1 border">
           I currently work with <PreviewCard {...previewCards.silasHsu}>Dr. Silas Hsu</PreviewCard>{" "}
-          to study how recommender systems infringe on user autonomy. I am also part of the{" "}
+          to study how recommender systems infringe on user autonomy. I am part of the{" "}
           <PreviewCard {...previewCards.dataDesignLab}>Cal Poly Data Design Lab</PreviewCard>,
           working with{" "}
           <PreviewCard {...previewCards.austinWright}>Dr. Austin P. Wright</PreviewCard> on a tool
           for studying the use of dimensionality reduction techniques in scientific workflows.
         </p>
-        <p className="flex flex-1 border">
+        <p className="flex-1 border">
           I am also the volunteer executive director of the 501(c)3 non-profit organization{" "}
           <PreviewCard {...previewCards.hack4impact}>Hack4Impact</PreviewCard>.
         </p>
