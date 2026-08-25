@@ -14,7 +14,7 @@ export default function Home() {
             ></Image>
           </div>
           <p className="flex flex-1 flex-col gap-3 border sm:gap-5">
-            <span className="xs:text-base text-xl">Hi, I&apos;m Khoa Ly.</span>
+            <span className="text-xl">Hi, I&apos;m Khoa Ly.</span>
             <span className="xs:flex hidden">
               I&apos;m a graduate researcher working at the intersections of human-computer
               interaction, explainable AI &amp; interpretable ML, and scientific computing &amp;
