@@ -1,23 +1,19 @@
-import Image from "next/image";
-
 import { PreviewCard } from "@/src/components/preview-card";
+import { TiltImage } from "@/src/components/tilt-image";
 import { previewCards } from "@/src/lib/preview-cards";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center bg-white font-sans dark:bg-black">
-      <main className="flex w-full max-w-3xl flex-1 flex-col items-center justify-between gap-3 px-4 py-32 sm:items-start sm:gap-5 sm:px-16 dark:bg-black">
+    <div className="flex flex-1 flex-col items-center justify-center font-sans text-pretty">
+      <main className="flex w-full max-w-3xl flex-1 flex-col items-center justify-between gap-3 px-4 py-32 sm:items-start sm:gap-5 sm:px-16">
         <div className="relative flex w-full flex-row items-start gap-3 sm:gap-5">
-          <div className="relative flex aspect-3/4 min-w-30 md:aspect-square">
-            <Image
-              className="rounded-sm object-cover object-[-72px] shadow-md md:object-[-36px]"
-              src={"/profile.jpg"}
-              fill={true}
-              alt="Asian man with glasses and a white shirt smiling in front of a blurred background of green trees"
-            ></Image>
-          </div>
+          <TiltImage
+            className="relative flex aspect-3/4 min-w-30 md:aspect-square"
+            src="/profile.jpg"
+            alt="Asian man with glasses and a white shirt smiling in front of a blurred background of green trees"
+          />
           <div className="flex flex-1 flex-col gap-3 sm:gap-5">
-            <h1 className="text-xl">Hi, I&apos;m Khoa Ly.</h1>
+            <h1 className="align-bottom text-xl">Hi, I&apos;m Khoa Ly.</h1>
             <span className="xs:flex hidden">
               <p>
                 I&apos;m a graduate researcher working at the intersections of{" "}

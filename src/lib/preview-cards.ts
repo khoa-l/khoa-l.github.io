@@ -29,7 +29,8 @@ export const previewCards = {
   },
   silasHsu: {
     href: "https://smhsu.github.io/",
-    ...placeholderImage,
+    imageSrc: "/silas.webp",
+    imageAlt: "Asian man in zipped -up black jacket with a white grid and glasses",
     title: "Dr. Silas Hsu",
     description:
       "is an Assistant Professor of CS at Cal Poly SLO. He researches the erosion of user autonomy in AI content curation systems / AI feedback systems in education and its remedies.",
@@ -43,7 +44,8 @@ export const previewCards = {
   },
   austinWright: {
     href: "https://austinpwright.com/",
-    ...placeholderImage,
+    imageSrc: "/austin.jpg",
+    imageAlt: "Caucasian man with long brown hair in a top bun and glasses smiling",
     title: "Dr. Austin P. Wright",
     description:
       "is an Assistant Professor of CS at Cal Poly SLO. He runs the Cal Poly Data Design Lab and conducts research in Scientific Human-Centered Machine Learning.",
@@ -53,6 +55,6 @@ export const previewCards = {
     ...placeholderImage,
     title: "Hack4Impact",
     description:
-      "chapters create software for non-profits, educate students in social good technology, and foster communities of humanitarians in tech.",
+      "chapters create software for non-profits, educate students about social good technology, and aims to foster communities of humanitarians in tech.",
   },
 } satisfies Record<string, PreviewCardContent>;
