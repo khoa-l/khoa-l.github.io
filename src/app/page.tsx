@@ -39,7 +39,7 @@ export default function Home() {
         </p>
         <p className="flex-1">
           I currently work with <PreviewCard {...previewCards.silasHsu}>Dr. Silas Hsu</PreviewCard>{" "}
-          to study how recommender systems infringe on user autonomy. I am part of the{" "}
+          studying how recommender systems infringe on user autonomy. I am part of the{" "}
           <PreviewCard {...previewCards.dataDesignLab}>Cal Poly Data Design Lab</PreviewCard>,
           working with{" "}
           <PreviewCard {...previewCards.austinWright}>Dr. Austin P. Wright</PreviewCard> on a tool
