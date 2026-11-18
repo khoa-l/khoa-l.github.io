@@ -39,10 +39,10 @@ export const previewCards = {
       "is an Assistant Professor of CS at Cal Poly SLO. He researches the erosion of user autonomy in AI content curation systems / AI feedback systems in education and its remedies.",
   },
   dataDesignLab: {
-    href: "https://calpoly-data-design-lab.github.io/",
+    href: "https://calpoly.datadesignlab.org/",
     imageAlt:
       "The logo for the Cal Poly Data Design Lab; algorithms stylized letter D in a container shape",
-    imageSrc: "/cpddl.jpg",
+    imageSrc: "/cpddl.svg",
     title: "Cal Poly Data Design Lab",
     description:
       "studies how people make sense of data and build tools that help communities, researchers, and practitioners analyze, visualize, and communicate with data.",
